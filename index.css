@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url("https://tse4.mm.bing.net/th/id/OIG4.b.6up3.gxLIG.MdNVsw8?pid=ImgGn"); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background-image: url("https://tse4.mm.bing.net/th/id/OIG4.b.6up3.gxLIG.MdNVsw8?pid=ImgGn");
+    background-size: cover;
+    object-fit: contain; 
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
+}
+h1{
+    color: goldenrod;
+}
+#message.el{
+    font-style: italic;
+}
+button{
+    border-radius:5rem;
+    font-size: 15px;
+    background-color: goldenrod;
+    color: black;
+    border: 2px solid black;
+    margin-bottom : 3px;
+}

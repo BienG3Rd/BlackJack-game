@@ -50,7 +50,7 @@ function renderGame() {
    messageEl.textContent = message
 }
 function newCard(){
-    if(isAlive === true && hasBlackJack === true){
+    if(isAlive === true && hasBlackJack === false){
         thirdCard = getRandomCard();
     sum += thirdCard;
     cards.push(thirdCard)
